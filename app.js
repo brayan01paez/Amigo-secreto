@@ -14,5 +14,16 @@ function agregarAmigo() {
     listaDeAmigos.push(nombre);
 // Limpiar la caja de texto
     input.value = '';
+    actualizarlista();
+}
+//funcion para actualizar la lista de amigos
+function actualizarlista() {
+    let lista = document.getElementById('listaAmigos');
+    lista.innerHTML = '';
+
+    for (let i = 0; i < listaDeAmigos.length; i++) {
+        lista.innerHTML += `<li>${listaDeAmigos[i]}</li>`;
+
+    }
 
 }
