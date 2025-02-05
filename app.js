@@ -27,3 +27,14 @@ function actualizarlista() {
     }
 
 }
+//funcion para sortear un amigo
+function sortearAmigo(){
+    if (listaDeAmigos.length === 0) {
+        alert('No hay nombres para sortear');
+        return;
+    } else {
+        let indeceAleatorio = Math.floor(Math.random() * listaDeAmigos.length);
+        let amigoSorteado = listaDeAmigos[indeceAleatorio];
+        document.getElementById('resultado').innerHTML = `El amigo sorteado es: ${amigoSorteado}`;
+    }
+}
