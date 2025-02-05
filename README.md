@@ -21,4 +21,4 @@ Sorteo aleatorio: Al hacer clic en el botón "Sortear Amigo", se seleccionará a
 <h4>Sitio Web</h4>
 <p>¡Explora la aplicación web "Sorteo de Amigos"! Una herramienta sencilla y divertida que te permite gestionar una lista de amigos y realizar sorteos aleatorios en solo unos clics. Descubre cómo es fácil agregar, listar y seleccionar un amigo de forma interactiva. ¡Visítala y pruébala ahora mismo!</p>
 
-<a href="https://github.com/brayan01paez/Amigo-secreto.git">Visita mi repositorio Amigo Secreto</a>
+<a href="https://brayan01paez.github.io/Amigo-secreto/">Visita mi repositorio Amigo Secreto</a>
